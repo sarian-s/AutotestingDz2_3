@@ -1,4 +1,4 @@
-package ru.netology;
+package jav.ru.netology;
 
 import org.junit.jupiter.api.Test;
 
@@ -15,6 +15,6 @@ public class PostmanEchoTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("somedata"));
+                .body("data", equalTo("some data"));
     }
 }
